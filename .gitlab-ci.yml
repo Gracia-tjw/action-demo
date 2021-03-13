@@ -17,8 +17,6 @@ mvn_build:
   artifacts:
     paths:
     - target
-  only:
-    - tags
 
 mvn_test:
   stage: test
