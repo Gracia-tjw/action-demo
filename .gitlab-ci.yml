@@ -29,6 +29,4 @@ mvn_test:
     - mvn test
     - echo "Code coverage 99%"
   coverage: '/Code coverage \d+/'
-  only:
-    - tags
 
