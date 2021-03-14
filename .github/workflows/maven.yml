@@ -20,7 +20,7 @@
                   with:
                     java-version: 1.8
                 - name: Build with Maven
-                  run:
+                  run: |
                     echo "Build Project"
                     mvn compile
             test:
@@ -33,7 +33,7 @@
                   with:
                     java-version: 1.8
                 - name: Test
-                  run:
+                  run: |
                     echo "Run JUnit4"
                     mvn test
                     echo "Code coverage 99%"
